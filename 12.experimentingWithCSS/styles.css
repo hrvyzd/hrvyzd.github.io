@@ -1,0 +1,25 @@
+/* Full-page background image styling with upper part focus */
+.full-page-image {
+    background-image: url('images/shadows.jpg'); /* Path to the image */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: top; /* Show more of the upper part of the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    position: relative;
+}
+
+/* Overlay text box styling */
+.overlay-text {
+    position: absolute;
+    font-size: 40px;
+    background-color: #99BFB1;
+    left: 144px;
+    bottom: 134px;
+    padding-top: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 33px;
+    padding-bottom: 22px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
